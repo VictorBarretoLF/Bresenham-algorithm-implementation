@@ -4,9 +4,9 @@
 
 ## Índice
 
--   [Introdução](#Introdução)
--   [Implementação do Algoritmo de Bresenham](#Implementação-do-Algoritmo-de-Bresenham)
--   [Gerando Triângulos](Gerando-Triângulos)
+- [Introdução](#introdução)
+- [Implementação do Algoritmo de Bresenham](#implementação-do-algoritmo-de-bresenham)
+- [Gerando Triângulos](#gerando-triângulos)
 
 ---
 
