@@ -12,6 +12,12 @@
 
 ### Introdução
 
+#### Integrantes do grupo:
+
+- [Renan Monteiro Firmino](https://www.linkedin.com/in/renan-monteiro-firmino-5b05b2248/)
+- [Kleber Barros](https://www.linkedin.com/in/kleber-barros-42369712b/)
+- [Víctor Barreto Lins Fialho](https://www.linkedin.com/in/v%C3%ADctor-barreto/)
+
 #### Trabalho da disciplina **Introdução ao Processamento de Imagens** ministrada pelo professor **Maelson** da UNIPE
 
 Para a compilação do projeto em MacOS, o programa requer as seguintes flags:
