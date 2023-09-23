@@ -6,6 +6,7 @@
 
 -   [Introdução](#Introdução)
 -   [Implementação do Algoritmo de Bresenham](#Implementação-do-Algoritmo-de-Bresenham)
+-   [Gerando Triângulos](Gerando-Triângulos)
 
 ---
 
@@ -150,3 +151,26 @@ void MyGlDraw(void) {
 ```
 
 Com isso, conclui-se a implementação bem-sucedida do Algoritmo de Bresenham para a rasterização de linhas.
+
+### Gerando Triângulos
+
+Após as dificuldades encontradas para criar a função _DrawLine()_, a criação de triangulos acabou ficando mais fácil
+
+#### Algoritmo usando para criação de triângulos
+
+```c++
+void DrawTriangle(int x1, int y1, int x2, int y2, int x3, int y3, int r, int g, int b) {
+    DrawLine(x1, y1, x2, y2, r, g, b);
+    DrawLine(x2, y2, x3, y3, r, g, b);
+    DrawLine(x3, y3, x1, y1, r, g, b);
+}
+```
+
+#### Resultado gerado
+
+<p align="center">
+    <br>
+    <img src="./imagens/drawtriangle.png" width=512px height=512px>
+    <h5 align="center">Figura 1 - Função DrawLine()</h5>
+    <br>
+</p>

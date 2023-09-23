@@ -58,19 +58,18 @@ void DrawLine(int x1, int y1, int x2, int y2, int r, int g, int b){
     }
 }
 
+void DrawTriangle(int x1, int y1, int x2, int y2, int x3, int y3, int r, int g, int b) {
+    DrawLine(x1, y1, x2, y2, r, g, b);
+    DrawLine(x2, y2, x3, y3, r, g, b);
+    DrawLine(x3, y3, x1, y1, r, g, b);
+}
+
 void MyGlDraw(void) {
     int middleX = (int)(IMAGE_WIDTH / 2); // 256
     int middleY = (int)(IMAGE_WIDTH / 2); // 256
-
-    DrawLine( middleX, middleY, 0, 0, 0, 255, 0); // topo esquerdo
-    DrawLine( middleX, middleY, 512, 0, 0, 0, 255); // topo direito
-    DrawLine( middleX, middleY, 512, 512, 255, 0, 0); // baixo direito
-    DrawLine( middleX, middleY, 0, 512, 255, 255, 255); // baixo esquerdo
-
-    DrawLine( middleX, middleY, 0, 256, 255, 255, 0); // centro esquerdo
-    DrawLine( middleX, middleY, 512, 256, 255, 0, 255); // centro direito
-    DrawLine( middleX, middleY, 256, 0, 128, 0, 128); // centro topo
-    DrawLine( middleX, middleY, 256, 512, 128, 0, 128); // centro baixo
+    
+    DrawTriangle(middleX, middleY / 2, middleX / 2, middleY + (middleY / 2), middleX + (middleX / 2), middleY + (middleY / 2),
+        255, 0, 0);
     
 }
 
