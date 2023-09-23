@@ -62,21 +62,16 @@ void MyGlDraw(void) {
     int middleX = (int)(IMAGE_WIDTH / 2); // 256
     int middleY = (int)(IMAGE_WIDTH / 2); // 256
 
-//    DrawLine( middleX, middleY, 0, 0, 0, 255, 0); // topo esquerdo
-//    DrawLine( middleX, middleY, 512, 0, 0, 0, 255); // topo direito
-//    DrawLine( middleX, middleY, 512, 512, 255, 0, 0); // baixo direito
-//    DrawLine( middleX, middleY, 0, 512, 255, 255, 255); // baixo esquerdo
-//
-//    DrawLine( middleX, middleY, 0, 256, 255, 255, 0); // centro esquerdo
-//    DrawLine( middleX, middleY, 512, 256, 255, 0, 255); // centro direito
-//    DrawLine( middleX, middleY, 256, 0, 128, 0, 128); // centro topo
-//    DrawLine( middleX, middleY, 256, 512, 128, 0, 128); // centro baixo
+    DrawLine( middleX, middleY, 0, 0, 0, 255, 0); // topo esquerdo
+    DrawLine( middleX, middleY, 512, 0, 0, 0, 255); // topo direito
+    DrawLine( middleX, middleY, 512, 512, 255, 0, 0); // baixo direito
+    DrawLine( middleX, middleY, 0, 512, 255, 255, 255); // baixo esquerdo
+
+    DrawLine( middleX, middleY, 0, 256, 255, 255, 0); // centro esquerdo
+    DrawLine( middleX, middleY, 512, 256, 255, 0, 255); // centro direito
+    DrawLine( middleX, middleY, 256, 0, 128, 0, 128); // centro topo
+    DrawLine( middleX, middleY, 256, 512, 128, 0, 128); // centro baixo
     
-//  DrawLine( middleX, middleY, 512, 252, 255, 0, 0);
-    
-    PutPixel(255, 255, 255, 255, 255);
-    PutPixel(125, 125, 255, 255, 0);
-    PutPixel(125, 255, 255, 0, 255);
 }
 
 
