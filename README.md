@@ -124,7 +124,7 @@ Com a implementação do algoritmo acima, agora é possível desenhar linhas no 
 <p align="center">
     <br>
     <img src="./imagens/drawline.png" width=512px height=512px>
-    <h5 align="center">Figura 1 - Função DrawLine()</h5>
+    <h5 align="center">Figura 2 - Função DrawLine()</h5>
     <br>
 </p>
 
@@ -171,6 +171,6 @@ void DrawTriangle(int x1, int y1, int x2, int y2, int x3, int y3, int r, int g, 
 <p align="center">
     <br>
     <img src="./imagens/drawtriangle.png" width=512px height=512px>
-    <h5 align="center">Figura 1 - Função DrawLine()</h5>
+    <h5 align="center">Figura 3 - Função DrawTriangle()</h5>
     <br>
 </p>
