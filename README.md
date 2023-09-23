@@ -5,6 +5,7 @@
 ## Índice
 
 * [Introdução](#Introdução)
+* [Implementando o Algorítmo de Bresenham](#Implementando-o-Algorítmo-de-Bresenham)
 
 ---
 
@@ -62,4 +63,4 @@ O resultado observado foi:
     <br>
 </p>
 
-
+### Implementando o Algorítmo de Bresenham
