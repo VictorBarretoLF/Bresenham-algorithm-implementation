@@ -57,7 +57,7 @@ O resultado observado foi:
 
 <p align="center">
     <br>
-    <img src="./images/putpixel.png"/ width=512px height=512px>
+    <img src="./imagens/putpixel.png"/ width=512px height=512px>
     <h5 align="center">Figura 1 - Função putPixel()</h5>
     <br>
 </p>
