@@ -65,11 +65,6 @@ void DrawTriangle(int x1, int y1, int x2, int y2, int x3, int y3, int r, int g, 
 }
 
 void MyGlDraw(void) {
-    int middleX = (int)(IMAGE_WIDTH / 2); // 256
-    int middleY = (int)(IMAGE_WIDTH / 2); // 256
-    
-    DrawTriangle(middleX, middleY / 2, middleX / 2, middleY + (middleY / 2), middleX + (middleX / 2), middleY + (middleY / 2),
-        255, 0, 0);
     
 }
 
