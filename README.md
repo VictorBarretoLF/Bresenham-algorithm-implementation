@@ -76,6 +76,12 @@ O resultado observado foi:
 
 A implementação do Algoritmo de Bresenham para a função `DrawLine` foi um processo bastante desafiador, e o entendimento a partir apenas da documentação fornecida pelo professor mostrou-se insuficiente. Foi necessário um período de tentativa e erro, além de diversas pesquisas, para obter um entendimento mais claro dos conceitos e algoritmos envolvidos nesta etapa.
 
+#### Dificuldades encontradas
+
+A maior dificuldade do algoritmo foi faze-lo funcionar corretamente para os 4 eixos, a função `DrawLine` inicialmente só funcionava para pontos positivos em que `x1 > x2 e y1 > y2`.
+
+#### Solução encontrada
+
 Após um período de busca e estudo, dois recursos foram particularmente úteis:
 
 -   **O primeiro link foi crucial para superar essa fase:**
